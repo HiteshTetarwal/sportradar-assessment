@@ -1,0 +1,15 @@
+.match-list-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.game-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.no-match-message {
+    font-style: italic;
+    color: #666;
+}

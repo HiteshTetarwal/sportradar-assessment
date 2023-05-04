@@ -1,0 +1,79 @@
+.scoreboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add-game-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.add-game-button {
+    background-color: #007aff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.add-game-button:hover {
+    background-color: #0062cc;
+}
+
+.update-score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.match-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.match-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.update-score-button {
+    background-color: #007aff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.update-score-button:hover {
+    background-color: #0062cc;
+}
+
+.remove-game-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.remove-game-button:hover {
+    background-color: #c82333;
+}
